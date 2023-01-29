@@ -9,6 +9,10 @@
 - which shell : returns all the shells in computer
 - which bash : returns location of bash
 - bash needs the extension .sh
+- two types of variables
+  - user vars
+  - system vars (defined by unix/linux/capital case variables)
+- #! /bin/bash : tell your interpreter which shell to run with
 
 ### Commands
 
@@ -17,3 +21,7 @@
 - ls -la : ls with permissions
 - chmod +x hello.sh : change permission of bash file to run it
 - ./ : run bash file
+- $BASH : same as which bash
+- $BASH_VERSION : bash version
+- $HOME : home dir path
+- $PWD : present working directory
