@@ -25,3 +25,6 @@
 - $BASH_VERSION : bash version
 - $HOME : home dir path
 - $PWD : present working directory
+- -p : allows you to write input on same line
+- -s : does not display input on terminal
+- -a : reads input as array
